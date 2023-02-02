@@ -1,0 +1,87 @@
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover ;
+}
+.container{
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.597);
+    border-radius: 12px;
+}
+header>img{
+    width: 25%;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+}
+header>h1{
+    text-align: center;
+    color:  #00dd00;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+nav>div{
+    width: 75%;
+    height: 30px;
+    margin: auto;
+    background-color: #00dd00;
+    text-align: center;
+}
+
+nav div>button{
+    margin-top: 5px;
+    margin-inline: 10px;
+}
+
+section{
+    width: 75%;
+    margin: auto;
+    padding: 10px
+}
+section>h3{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section>span{
+    display: block;
+    color: white;
+    font-size: small
+}
+
+section span:first-of-type::before{
+    content: "\21A6   ";
+}
+
+section div{
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+div .full{
+    background-color: #00b100;
+    width: 50%;
+}
+
+div.half{
+    background-color: rgb(245, 193, 50);
+    width: 25%;
+}
+
+div.low{
+    background-color: rgb(212, 58, 44);
+    width: 12.5%;
+}
+
+section>h3{
+    filter: opacity(100%);
+}
+section>h3:hover{
+    filter: opacity(70%);
+}
